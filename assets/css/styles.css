@@ -1,4 +1,14 @@
-nav {
+nav{
     background-color: #5cc7ea;
     color: white;
 }
+
+#titulo1{
+    color: white;
+    font-size: 20px;
+}
+
+#icono{
+    color: white;
+}
+
