@@ -3,7 +3,7 @@ nav{
     color: white;
 }
 
-#titulo1{
+#titulo{
     color: white;
     font-size: 20px;
 }
@@ -12,3 +12,8 @@ nav{
     color: white;
 }
 
+
+#card {
+    color: white;
+    background-color: #5cc7ea;
+}
