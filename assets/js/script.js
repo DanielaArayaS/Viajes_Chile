@@ -16,3 +16,16 @@ $(".tarjetas").click(function () {
 	$(".contenido").toggle(1000);
 	$('.contenido').show(1000);
 });
+
+$("#enviar").click(function (e) {
+	e.preventDefault();
+	alert("Formulario enviado correctamente...");
+});
+
+
+var tooltipTriggerList = document.querySelectorAll(
+  '[data-bs-toggle="tooltip"]'
+);
+var tooltipList = [...tooltipTriggerList].map(
+  (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+);
