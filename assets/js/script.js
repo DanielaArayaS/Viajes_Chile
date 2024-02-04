@@ -10,3 +10,9 @@ $(function () {
         }
     });
 });
+
+//Función en tarjetas para aparecer y desaparecer
+$(".tarjetas").click(function () {
+	$(".contenido").toggle(1000);
+	$('.contenido').show(1000);
+});
