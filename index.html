@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Daniela Araya Salazar" />
 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/x-icon">
+
     <!--Vincula Css-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -31,7 +34,7 @@
   <body>
 
     <!-- #region Navbar-->
-    <nav data-bs-theme="dark" class="navbar navbar-expand-lg navbar-light px-5">
+    <nav data-bs-theme="dark" class="navbar navbar-expand-lg navbar-light px-5 fixed-top">
       <div class="container">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
@@ -61,7 +64,7 @@
         >
           <ul class="navbar-nav">
 
-            <!--InicioNavbar-->
+            <!--Inicio-->
             <li class="nav-item mx-2">
               <a class="nav-link text-white" aria-current="page" href="#inicio"
                 >Inicio</a
@@ -70,17 +73,17 @@
 
             <!--Quienes somos-->
             <li class="nav-item mx-2">
-              <a class="nav-link text-white" href="#">Quienes Somos</a>
+              <a class="nav-link text-white" href="#aboutUs">Quienes Somos</a>
             </li>
 
             <!--Destacados-->
             <li class="nav-item mx-2">
-              <a class="nav-link text-white" href="#">Destacados</a>
+              <a class="nav-link text-white" href="#aboutUs">Destacados</a>
             </li>
 
             <!--Contacto-->
             <li class="nav-item mx-2">
-              <a class="nav-link text-white" href="#">Contacto</a>
+              <a class="nav-link text-white" href="#aboutUs">Contacto</a>
             </li>
           </ul>
         </div>
@@ -114,9 +117,9 @@
     <!-- #endregion -->
     <!-- #region Section-->
     <!--Section 1 "¿Quienes somos?""-->
-    <section class="pt-5 d-none d-md-block bg-black" id="titulo">
+    <section class="pt-5 d-none d-md-block bg-black" id="aboutUs">
         <div class="container">
-            <div class="mx-5">
+            <div class="mx-5" id="titulo">
                 <h3 class="text-center mx-5 mb-4">¿QUIENES SOMOS?</h3>
                 <hr class="bg-info mb-4 text-center">
             </div>
@@ -145,9 +148,9 @@
     </section>
 
     <!--Section 2 "Destacados"-->
-    <section class="pt-5 bg-fondo bg-black" id="titulo">
+    <section class="pt-5 bg-fondo bg-black" id="aboutUs">
         <div class="container">
-            <div class="mx-5">
+            <div class="mx-5" id="titulo">
                 <h3 class="text-center mx-5 mb-4">DESTACADOS</h3>
                 <hr class="bg-info mb-4 text-center">
             </div>
@@ -193,9 +196,9 @@
     </section>
 
     <!--Section 3 "Contacto"-->
-    <section class="py-5 bg-fondo bg-black" id="titulo">
+    <section class="py-5 bg-fondo bg-black" id="aboutUs">
         <div class="container">
-            <div class="mx-5">
+            <div class="mx-5" id="titulo">
                 <h3 class="text-center mx-5 mb-4">CONTACTO</h3>
                 <hr class="bg-info mb-4 text-center">
             </div>
@@ -228,14 +231,16 @@
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
-                <h2><i class="fa-brands fa-square-github"></i> 
-                    <i class="fa-brands fa-linkedin"></i> 
-                    <i class="fa-brands fa-square-twitter"></i> 
-                    <i class="fa-brands fa-square-facebook"></i> 
+                <h2>
+                    <a href="https://github.com"><i class="fa-brands fa-square-github" id="icono"></i></a> 
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin" id="icono"></i></a> 
+                    <a href="https://twitter.com"><i class="fa-brands fa-square-twitter" id="icono"></i></a> 
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook" id="icono"></i></a> 
                 </h2>
             </div>
         </div>
     </footer>
+    <!-- #endregion -->
 
         <!--Vincula Font Awesome-->
     <script src="https://kit.fontawesome.com/a3c7808488.js" crossorigin="anonymous"></script>
